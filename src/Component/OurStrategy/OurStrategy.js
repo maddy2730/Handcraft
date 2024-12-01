@@ -61,7 +61,7 @@ const OurStrategy = () => {
     <section style={sectionStyle}>
       <h2 style={titleStyle}>OUR STRATEGY</h2>
       <p style={descriptionStyle}>
-        The 3 pillars of Trade, Train, and Transform form the mainstay of everything we do at kalla Handicrafts.
+        The 3 pillars of Trade, Train, and Transform form the mainstay of everything we do at KalaakreetiHandicrafts.
       </p>
 
       <div style={strategyRowStyle}>

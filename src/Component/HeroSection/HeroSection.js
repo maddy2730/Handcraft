@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className="hero-section">
       <div className="hero-content">
-        <h1 className="hero-title">hie MOMMY</h1>
+        <h1 className="hero-title">Kalaakreeti Welcomes You</h1>
       </div>
     </div>
   );

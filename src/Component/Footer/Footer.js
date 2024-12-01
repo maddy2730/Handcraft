@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="footer-aesthetic">
     <div className="footer-container">
       <div className="footer-about">
-        <h3 className="footer-title">About kalla Handicrafts</h3>
+        <h3 className="footer-title">About KalaakreetiHandicrafts</h3>
         <p>
-          kalla Handicrafts connects the craftsmanship of traditional Indian artisans to the global world,
+          KalaakreetiHandicrafts connects the craftsmanship of traditional Indian artisans to the global world,
           offering exquisite handmade products. Our journey is driven by the mission to uplift artisans' skills
           while promoting their timeless work in modern spaces.
         </p>
@@ -51,7 +51,7 @@ const Footer = () => {
     </div>
 
     <div className="footer-bottom">
-      <p>© 2024 kalla Handicrafts | All Rights Reserved</p>
+      <p>© 2024 KalaakreetiHandicrafts | All Rights Reserved</p>
     </div>
   </footer>
   );

@@ -45,7 +45,7 @@ const WhoWeAre = () => {
       <div className="container">
         <h2 className="section-title" style={titleStyle}>Who We Are</h2>
         <p className="section-description" style={descriptionStyle}>
-        kalla Handicrafts is an organisation committed to the preservation and promotion of Indian handicraft products across the globe. kalla Handicrafts offers hope to thousands of Indian artisans. Against an increasingly commercialised and machine-made world, it offers them the promise of a world where livelihoods are assured, traditional skills are valued and where handicraft products receive the respect they deserve.
+        KalaakreetiHandicrafts is an organisation committed to the preservation and promotion of Indian handicraft products across the globe. KalaakreetiHandicrafts offers hope to thousands of Indian artisans. Against an increasingly commercialised and machine-made world, it offers them the promise of a world where livelihoods are assured, traditional skills are valued and where handicraft products receive the respect they deserve.
         </p>
       </div>
 
