@@ -1,0 +1,23 @@
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    background: transparent; /* Transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center; /* Center align the text */
+  }
+  
+  .hero-title {
+    font-size: 3rem; /* Adjust size as needed */
+     color: #af0e0e;; /* Red color for the text */
+    font-weight: bold; /* Bold text */
+  }
+  .wpb_wrapper{
+    position: relative;
+    top: 20%;
+    padding: 40px;
+  }

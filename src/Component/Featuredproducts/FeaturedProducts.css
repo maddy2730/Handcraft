@@ -1,0 +1,71 @@
+/* LandingPage.css */
+/* .featured-products {
+    background-color: #f8f9fa;
+  } */
+  .Featured-Handcrafted{
+    /* letter-spacing: 2.5px;
+    text-transform: uppercase; */
+    font-family: Rokkitt, serif;
+    font-size: 36px;
+    font-weight: bold;
+
+  }
+  .product-title{
+    font-family: Rokkitt, serif;
+  }
+  .btns{
+    background-color:  #af0e0e !important;
+    border: none !important;
+  }
+  .product-description{
+    font-family: Rokkitt, serif;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    color: #28a745;
+    margin-top: 5px;
+  }
+  
+  .product-card img {
+    width: 217px;
+    height: 201px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 576px) {
+    .product-card {
+      padding: 15px;
+    }
+  }
+  

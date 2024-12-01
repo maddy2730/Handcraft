@@ -1,0 +1,107 @@
+/* General footer styling */
+.footer-aesthetic {
+    color: #4e4b46;
+    padding: 60px 20px;
+    font-family: 'Merriweather', serif; /* Vintage font style */
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer container with flex layout */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Footer sections */
+  .footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c2a22;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .footer-about p, .footer-contact p {
+    font-size: 16px;
+    color: #6f6c59;
+    line-height: 1.8;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: #6f6c59;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-links a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #e0b97e; /* Gold accent */
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #e0b97e;
+  }
+  
+  .footer-links a:hover::before {
+    width: 100%;
+  }
+  
+  /* Social icons styling */
+  .footer-social .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-social .social-icons a {
+    color: #6f6c59;
+    font-size: 26px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease;
+  }
+  
+  .footer-social .social-icons a:hover {
+    color: #e0b97e;
+    transform: scale(1.2);
+  }
+  
+  /* Footer bottom section */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #a59f91;
+    border-top: 1px solid #e0b97e;
+    padding-top: 20px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-about, .footer-contact, .footer-links, .footer-social {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  
